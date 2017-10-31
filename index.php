@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Blog Post Creator</title>
+	<link rel="icon" href="blog_icon.ico" type="image/ico" sizes="64x64">
 	<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
 	<script type="text/javascript" src="js/jquery.js"></script>
@@ -84,17 +85,16 @@
 		}
 
 		.btn-warning {
-  background: #FF8800;
-}
-.btn-warning:hover, .btn-warning:focus {
-  background-color: #ff961f !important;
-}
-.btn-warning.active {
-  background-color: #cc8800 !important;
-}
+  			background: #FF8800;
+		}
 
-		
+		.btn-warning:hover, .btn-warning:focus {
+  			background-color: #ff961f !important;
+		}
 
+		.btn-warning.active {
+  			background-color: #cc8800 !important;
+		}
 	</style>
 </head>
 

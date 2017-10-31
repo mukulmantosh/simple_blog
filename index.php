@@ -6,7 +6,6 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<<<<<<< HEAD
 
 	<style type="text/css">
 		.body_bg {
@@ -23,10 +22,9 @@
 	</style>
 </head>
 <body class="body_bg">
-=======
+
 </head>
 <body>
->>>>>>> cad4bcf05bf58a3e0bede515cedd51e0eb0c67f4
 
 	<center>
 	<h2> Blog Post Creator </h2>

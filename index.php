@@ -21,10 +21,8 @@
   		}
 	</style>
 </head>
-<body class="body_bg">
 
-</head>
-<body>
+<body class="body_bg">
 
 	<center>
 	<h2> Blog Post Creator </h2>

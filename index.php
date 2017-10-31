@@ -51,6 +51,40 @@
     		border-color: #b3b3ff;
     		box-shadow: 0 0 10px #b3b3ff;
 		}
+
+		.btn {
+  			border-radius: 2px;
+  			border: 0;
+  			transition: .2s ease-out;
+  			color: #fff;
+  			margin: 6px;
+  			box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+		}
+
+		.btn:hover {
+  			color: #fff;
+  			box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+		}
+
+		.btn:active, .btn:focus, .btn.active {
+  			outline: 0;
+  			color: #fff;
+		}
+
+		.btn-default {
+  			background: #2BBBAD;
+		}
+
+		.btn-default:hover, .btn-default:focus {
+  			background-color: #30cfc0 !important;
+		}
+
+		.btn-default.active {
+  			background-color: #186860 !important;
+		}
+
+		
+
 	</style>
 </head>
 
@@ -64,7 +98,7 @@
 		<h3>Content</h3>
 		<textarea name="content" class="form-control" style="width:50%;" rows="15"></textarea>
 		<br>
-		<p><input type="submit" class="btn btn-info" name="btn_submit" value="Save"/></p>
+		<p><input type="submit" class="btn btn-info btn-lg btn-default" name="btn_submit" value="Save"/></p>
 	</form>
 	<a class="btn btn-primary" href="view.php">VIEW ARTICLES</a>
 </center>

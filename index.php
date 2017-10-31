@@ -38,6 +38,19 @@
 		                 0 10px 10px rgba(0,0,0,.2),
 		                 0 20px 20px rgba(0,0,0,.15);
   		}
+
+  		.form-control {
+  			border: 1px solid #7575a3;
+    		box-shadow: 0px 0px 8px #7575a3;
+    		-moz-box-shadow: 0px 0px 8px #7575a3;
+    		-webkit-box-shadow: 0px 0px 8px #7575a3;
+  		}
+
+  		.form-control:focus { 
+    		outline: none;
+    		border-color: #b3b3ff;
+    		box-shadow: 0 0 10px #b3b3ff;
+		}
 	</style>
 </head>
 

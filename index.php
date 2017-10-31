@@ -83,6 +83,16 @@
   			background-color: #186860 !important;
 		}
 
+		.btn-warning {
+  background: #FF8800;
+}
+.btn-warning:hover, .btn-warning:focus {
+  background-color: #ff961f !important;
+}
+.btn-warning.active {
+  background-color: #cc8800 !important;
+}
+
 		
 
 	</style>
@@ -100,7 +110,7 @@
 		<br>
 		<p><input type="submit" class="btn btn-info btn-lg btn-default" name="btn_submit" value="Save"/></p>
 	</form>
-	<a class="btn btn-primary" href="view.php">VIEW ARTICLES</a>
+	<a class="btn btn-primary btn-lg btn-warning" href="view.php">View Articles</a>
 </center>
 
 </body>

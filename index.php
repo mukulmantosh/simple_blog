@@ -47,7 +47,7 @@
     		-webkit-box-shadow: 0px 0px 8px #7575a3;
   		}
 
-  		.form-control:focus { 
+  		.form-control:focus {
     		outline: none;
     		border-color: #b3b3ff;
     		box-shadow: 0 0 10px #b3b3ff;
@@ -100,6 +100,8 @@
 
 <body class="body_bg">
 
+<div class="container">
+	<div class="row">
 	<center>
 	<h2> Blog Post Creator </h2>
 	<form action="save.php" method="post">
@@ -112,6 +114,8 @@
 	</form>
 	<a class="btn btn-primary btn-lg btn-warning" href="view.php">View Articles</a>
 </center>
+</div>
+</div>
 
 </body>
 </html>

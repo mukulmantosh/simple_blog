@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Blog Post Creator</title>
+	<title>BLOG POST CREATOR</title>
 	<link rel="icon" href="blog_icon.ico" type="image/ico" sizes="64x64">
 	<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
@@ -10,12 +10,12 @@
 
 	<style type="text/css">
 		.body_bg {
-			background-color: #ccccff;
-  			padding: 2.25em 1.6875em;
+			background-color: #cc00ff;
+  			padding: 2.25em 1.6870em;
   			background-image: -webkit-repeating-linear-gradient(135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
-  			background-image: -moz-repeating-linear-gradient(135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
+  			background-image: -moz-repeating-linear-gradient(140deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
   			background-image: -o-repeating-linear-gradient(135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
-  			background-image: repeating-linear-gradient(135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
+  			background-image: repeating-linear-gradient(140deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
   			-webkit-background-size: 4px 4px;
   			-moz-background-size: 4px 4px;
   		}
@@ -103,7 +103,7 @@
 <div class="container">
 	<div class="row">
 	<center>
-	<h2> Blog Post Creator </h2>
+	<h2> BLOG POST CREATOR </h2>
 	<form action="save.php" method="post">
 		<h3>Title</h3>
 		<p><input type="text" class="form-control" style="width:20%;" name="title" id="title"/></p>

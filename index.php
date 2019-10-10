@@ -18,14 +18,14 @@
   			background-image: repeating-linear-gradient(135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
   			-webkit-background-size: 4px 4px;
   			-moz-background-size: 4px 4px;
-  			background-size: 4px 4px;
   		}
 
   		h2, h3 {
   			color: #ffffff;
   			text-align: center;
-  			font: bold Sans-Serif;
-  			color: white;
+  			font: bold;
+			font-size: 25px;
+  			color: grey;
   			text-shadow: 0 1px 0 #ccc,
 		                 0 2px 0 #c9c9c9,
 		                 0 3px 0 #bbb,
@@ -48,15 +48,15 @@
   		}
 
   		.form-control:focus {
-    		outline: none;
     		border-color: #b3b3ff;
     		box-shadow: 0 0 10px #b3b3ff;
 		}
 
 		.btn {
-  			border-radius: 2px;
+  			border-radius: 20px;
   			border: 0;
   			transition: .2s ease-out;
+			color: red;
   			color: #fff;
   			margin: 6px;
   			box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -69,7 +69,7 @@
 
 		.btn:active, .btn:focus, .btn.active {
   			outline: 0;
-  			color: #fff;
+  			color: blue;
 		}
 
 		.btn-default {
